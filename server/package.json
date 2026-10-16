@@ -1,0 +1,14 @@
+{
+  "name": "chislandia-server",
+  "version": "1.0.0",
+  "description": "Сервер и база данных онлайн-школы математики «Числяндия»",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset-db": "node reset-db.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
